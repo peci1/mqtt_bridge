@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package format="2">
+<package format="3">
   <name>mqtt_bridge</name>
   <version>0.2.1</version>
   <description>The mqtt_bridge package</description>
@@ -21,7 +21,7 @@
   <exec_depend>python3-msgpack</exec_depend>
   <exec_depend>python3-paho-mqtt</exec_depend>
   <exec_depend>python3-pymongo</exec_depend>
-  <exec_depend>python-inject-pip</exec_depend>
+  <exec_depend version_lt="5.0.0">python3-inject-pip</exec_depend>
 
   <export>
   </export>
